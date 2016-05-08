@@ -1,0 +1,85 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+	<group android:id="@+id/group_account" android:checkableBehavior="single">
+        <item
+            android:id="@+id/login"
+            android:icon="@drawable/ic_padlock_lock"
+            android:checkableBehavior="none"
+            android:checked="false"
+            android:title="Register or Login" />
+    </group>
+
+	<!-- xmlns:app="http://schemas.android.com/apk/res-auto" -->
+    <group
+        android:id="@+id/switchs"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/gps_location"
+            android:title="Location Using GPS"
+            app:actionLayout="@layout/menu_switch"
+            app:showAsAction="always" />
+		<item
+            android:id="@+id/map_location"
+            android:title="Select Location Using Map"
+            android:checkableBehavior="none" />
+    </group>
+
+    <group
+        android:id="@+id/group_event"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/events"
+            android:icon="@drawable/ic_calendar"
+            android:title="All Events"
+            android:checkableBehavior="none"
+            android:checked="true" />
+        <item
+            android:id="@+id/ethnic_event"
+            android:icon="@drawable/ic_meditation"
+            android:title="Ethnic and Cultural Events"
+            android:checkableBehavior="none" />
+        <item
+            android:id="@+id/other_event"
+            android:icon="@drawable/ic_mask"
+            android:title="Other Event"
+            android:checkableBehavior="none" />
+    </group>
+
+    <group
+        android:id="@+id/places"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/objects"
+            android:icon="@drawable/ic_maps_map_marker"
+            android:title="Interesting Places"
+            android:checkableBehavior="none" />
+        <item
+            android:id="@+id/hotels"
+            android:icon="@drawable/ic_bed"
+            android:title="Hotels"
+            android:checkableBehavior="none" />
+        <item
+            android:id="@+id/restaurants"
+            android:icon="@drawable/ic_food"
+            android:title="Cafes \u0026 Restaurants"
+            android:checkableBehavior="none" />
+    </group>
+
+    <group
+        android:id="@+id/group_services"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/guides"
+            android:icon="@drawable/ic_talk"
+            android:title="Profesional Guide"
+            android:checkableBehavior="none" />
+        <item
+            android:id="@+id/rental"
+            android:icon="@drawable/ic_wheel"
+            android:title="Car \u0026 Bike Rental"
+            android:checkableBehavior="none" />
+    </group>
+
+</menu>

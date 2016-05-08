@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tatorMerah">#eb0100</color>
+    <color name="tatorKuning">#f4c81f</color>
+    <color name="tatorHitam">#000000</color>
+
+    <color name="PrimaryColorBpi">#2196F3</color>
+    <color name="PrimaryDarkColorBpi">#1976D2</color>
+
+    <color name="PrimaryColor">@color/PrimaryColorBpi</color>
+    <color name="PrimaryDarkColor">@color/PrimaryDarkColorBpi</color>    
+</resources>
